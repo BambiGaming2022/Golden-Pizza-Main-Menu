@@ -38,7 +38,6 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		// #if MODS_ALLOWED 'mods', #end
 		// #if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'bios',
 		'credits',
 		// #if !switch 'donate', #end
 		'options'
@@ -123,7 +122,7 @@ class MainMenuState extends MusicBeatState
 		}
 
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 84, 0, "FNF: The Great Red Destruction v6.3.0", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 84, 0, "VS Dave And Bambi Golden Pizza Edition v1.0", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -131,7 +130,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Golden Pizza Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
