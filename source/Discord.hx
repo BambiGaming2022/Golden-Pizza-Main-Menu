@@ -42,10 +42,10 @@ class DiscordClient
 	static function onReady()
 	{
 		DiscordRpc.presence({
-			details: "In the Menus",
+			details: "Welcome To My Mod",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "FNF: The Great Red Destruction"
+			largeImageText: "VS Dave And Bambi Golden Pizza Edition"
 		});
 	}
 
